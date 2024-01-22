@@ -1,0 +1,101 @@
+ *{
+    margin:0;
+    padding:0;
+}
+.menu{
+    width:80px;
+    height:52px;
+    position:relative;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+	
+	float:left;
+	margin-left:100px;
+        margin-top: 30px;
+}
+.item{
+    position:relative;
+    float:right;
+    width:40px;
+    margin:10px 5px;
+    height:40px;
+    border:2px solid #ddd;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+    border-radius:20px;
+    -moz-box-shadow:1px 1px 3px #555;
+    -webkit-box-shadow:1px 1px 3px #555;
+    box-shadow:1px 1px 3px #555;
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.link{
+    left:2px;
+    top:2px;
+    position:absolute;
+    width:38px;
+    height:38px;
+}
+
+.item_content{
+    position:absolute;
+    height:40px;
+    width:180px;
+    overflow:hidden;
+    left:56px;
+    top:7px;
+    background:transparent;
+    display:none;
+}
+.item_content h2{
+    color:#aaa;
+    text-shadow: 1px 1px 1px #fff;
+    background-color:transparent;
+    font-size:11px;
+}
+.item_content a{
+    background-color:transparent;
+    float:left;
+    margin-right:7px;
+    margin-top:3px;
+    color:#bbb;
+    text-shadow: 1px 1px 1px #fff;
+    text-decoration:none;
+    font-size:10px;
+}
+.item_content a:hover{
+    color:#0b965b;
+}
+.item_content p {
+    background-color:transparent;
+    display:none;
+}
+.item_content p input{
+    border:1px solid #ccc;
+    padding:1px;
+    width:135px;
+    float:left;
+    margin-right:5px;
+}
+.left_head_add_interests_division
+{
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin-top: 50px;
+}
+.add_books_movies_serials_href
+{
+    text-decoration: none;
+    color: #989797;
+    font-size: 14px;
+    font-weight: bold;
+}
+.add_books_movies_serials_href:hover
+{
+    color: #fc4949;
+}
